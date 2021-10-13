@@ -38,9 +38,12 @@ html {
 .background-container--img3,
 .background-container--img4,
 .background-container--img5 {
+  /*position: relative;*/
+  /* resmi en düzgün sekilde konumlandirma ve boyutlandirma*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  /*TODO: Parallax*/
   background-attachment: fixed;
   opacity: 0.7;
   display: flex;
@@ -60,6 +63,7 @@ html {
 }
 
 .heading-container {
+  /*position: absolute;*/
   text-align: center;
   font-size: 3rem;
   letter-spacing: 0.2rem;
@@ -127,7 +131,7 @@ html {
   color: #ddd;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 760px) {
   .heading-container {
     font-size: 1.5rem;
   }
@@ -138,7 +142,7 @@ html {
     outline: 0.4rem inset blue;
     background-color: white;
     outline-offset: 0.6rem;
-    line-height: 2.5rem;
+    line-height: 2.4rem;
   }
   .heading-container__heading--big-last {
     background-color: white;
@@ -168,6 +172,9 @@ html {
     outline-offset: 0.1rem;
     line-height: 2.4rem;
   }
+  .heading-container__heading--logo {
+    width: 60%;
+  }
   .section {
     font-size: 0.9rem;
   }
@@ -180,5 +187,8 @@ html {
   .background-container--img4,
   .background-container--img5  {
     background-attachment: scroll;
+  }
+  .heading-container {
+    font-size: 1.2rem;
   }
 }
