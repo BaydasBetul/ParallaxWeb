@@ -6,7 +6,7 @@ html {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   line-height: 1.8rem;
-  color: #666;
+  color: #ddd;
   height: 100%;
 }
 
@@ -77,7 +77,7 @@ html {
   text-transform: uppercase;
   line-height: 7rem;
 }
-.heading-container__heading--big + p{
+.heading-container__heading--text{
     color: whitesmoke;
 }
 .heading-container__heading--small1 {
