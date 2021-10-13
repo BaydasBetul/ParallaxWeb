@@ -135,7 +135,7 @@ html {
     padding: 1rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    outline: 0.4rem inset darkblue;
+    outline: 0.4rem inset blue;
     background-color: white;
     outline-offset: 0.6rem;
     line-height: 2.5rem;
