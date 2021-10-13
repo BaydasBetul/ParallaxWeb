@@ -129,7 +129,7 @@ html {
 
 @media screen and (max-width: 900px) {
   .heading-container {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .heading-container__heading--big {
     padding: 1rem;
@@ -169,7 +169,7 @@ html {
     line-height: 2.4rem;
   }
   .section {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -180,5 +180,11 @@ html {
   .background-container--img4,
   .background-container--img5  {
     background-attachment: scroll;
+  }
+  .heading-container {
+    font-size: 0.9rem;
+  }
+  .section {
+    font-size: 0.5rem;
   }
 }
