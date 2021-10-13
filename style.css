@@ -181,10 +181,4 @@ html {
   .background-container--img5  {
     background-attachment: scroll;
   }
-  .heading-container {
-    font-size: 0.9rem;
-  }
-  .section {
-    font-size: 0.5rem;
-  }
 }
