@@ -135,15 +135,36 @@ html {
     padding: 1rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    outline: 0.4rem inset purple;
+    outline: 0.4rem inset blue;
+    background-color: white;
     outline-offset: 0.6rem;
     line-height: 2.5rem;
   }
-  .heading-container__heading--small {
+  .heading-container__heading--big-last {
+    background-color: white;
+    padding: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: 0.4rem inset rgb(236, 27, 62);
+    outline-offset: 0.6rem;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+}  
+  .heading-container__heading--small1 {
     padding: 0.4rem;
     border-top-left-radius: 0.3rem;
     border-bottom-right-radius: 0.3rem;
-    outline: 0.2rem inset purple;
+    outline: 0.2rem inset cyan;
+    background-color: white;
+    outline-offset: 0.1rem;
+    line-height: 2.4rem;
+  }
+  .heading-container__heading--small2 {
+    padding: 0.4rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    outline: 0.2rem inset black;
+    background-color:orange;
     outline-offset: 0.1rem;
     line-height: 2.4rem;
   }
