@@ -127,7 +127,7 @@ html {
   color: #ddd;
 }
 
-@media (max-width: 760px) {
+@media screen and (max-width: 760px) {
   .heading-container {
     font-size: 2rem;
   }
@@ -173,7 +173,7 @@ html {
   }
 }
 
-@media (max-width: 568px) {
+@media screen and (max-width: 568px) {
   .background-container--img1,
   .background-container--img2,
   .background-container--img3,
